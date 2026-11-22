@@ -9,4 +9,6 @@ Everything in this repository is under the [MIT License](LICENSE): code, course 
 | The STOP, YIELD, Tip, Quiz, Lab and Level-up signs (`framework/assets/sign_*.webp`) | **Emacartoon**, released under MIT |
 | Icons (`framework/assets/icons/`), circuit textures and chalkboard | kultrshok × Twig, original, drawn for this project |
 
+Emacartoon's image files carry "© 2026 Emacartoon" in their embedded metadata (EXIF Artist/Copyright and XMP dc:creator/dc:rights). Please keep it when you copy them.
+
 If you reuse Twig or the signs, a credit to Emacartoon is appreciated (and required by the MIT notice when you copy substantial portions).
