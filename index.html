@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twig's Tinker School</title>
+<link rel="icon" href="framework/assets/twig-icon.png">
+<link rel="stylesheet" href="framework/twig-theme.css">
+</head><body>
+<div class="launcher">
+  <div class="hero">
+    <img src="framework/assets/twig_bob.webp" alt="Twig">
+    <img class="smith" src="framework/assets/twig_blacksmith_240.webp" alt="Twig in a smithing apron with a cross peen hammer">
+    <div>
+      <h1 style="color:var(--brass-lt);margin:0">Twig's Tinker School</h1>
+      <p style="font-style:italic">"Gooood evening, apprentice! Pick a contraption to take apart. Everything here runs right off your own drive. No internet, no #@$%! pop-ups. Heh."</p>
+      <button id="theme"><img class="ico" src="framework/assets/icons/brass/goggles.png" alt="" aria-hidden="true">Workshop / parchment / slate</button>
+    </div>
+  </div>
+  <div class="cards" id="cards"></div>
+  <p style="color:var(--muted);font-size:.85rem;margin-top:30px">kultrshok × Twig · v2.3 design · Everything runs from this folder. See README.md for how progress is saved.</p>
+</div>
+<script src="courses/catalog.js"></script>
+<script>
+(function () {
+  var cards = document.getElementById("cards"), cat = window.TWIG_CATALOG || [];
+  // course card icons (assets/icons/color); new courses get the gears
+  var ICONS = {math: "clock", electronics: "steam-engine", python: "gear-crate", linux: "gears", arduino: "steam-power",
+               raspberrypi: "time-factory", preservation: "satchel", foodforest: "sky-city", husbandry: "goggles", house: "top-hat"};
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+  var theme = 0; try { theme = parseInt(localStorage.getItem("twigschool:theme"), 10) || 0; } catch (e) {}
+  if (theme < 0 || theme > 2) theme = 0;
+  function applyTheme() { document.body.classList.toggle("parchment", theme === 1); document.body.classList.toggle("slate", theme === 2); }
+  applyTheme();
+  document.getElementById("theme").onclick = function () { theme = (theme + 1) % 3; applyTheme(); try { localStorage.setItem("twigschool:theme", String(theme)); } catch (e) {} };
+  if (!cat.length) cards.innerHTML = "<p>No courses yet. Run tools/build_course.py.</p>";
+  cat.forEach(function (c) {
+    var done = "";
+    try { var s = JSON.parse(localStorage.getItem("twigschool:" + c.id) || "{}"); var n = Object.keys(s.done || {}).filter(function (k) { return s.done[k]; }).length; if (n) done = "<p style='color:var(--hat)'>" + n + " weeks/checkpoints done</p>"; } catch (e) {}
+    var ico = ICONS[c.dir] || "gears";
+    cards.insertAdjacentHTML("beforeend", '<a href="courses/' + esc(c.dir) + '/index.html"><img class="cico" src="framework/assets/icons/color/' + ico + '.png" alt=""><div class="cbody"><h3>' + esc(c.title) + "</h3><div style='color:var(--muted)'>" + esc(c.subtitle) + "</div><p>" + esc(c.blurb) + "</p>" + done + "</div></a>");
+  });
+})();
+</script>
+</body></html>
