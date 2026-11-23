@@ -11,6 +11,8 @@ It runs straight from these files in Chrome, Edge or Firefox. There's no server,
 1. Unzip the folder anywhere you like.
 2. Double-click `index.html`, then click the workshop card. You can also open `courses/house/index.html` directly and bookmark it.
 
+**For people new to GitHub, click on release to the right and download the source code zip file, then unzip that**
+
 Keyboard: ← and → move between pages. The goggles button switches between three color themes (workshop, parchment and slate). On a phone the page tidies itself up: compact top bar, the weeks in a drop-down, and tables you can scroll sideways. Ctrl+P prints the current page without the sidebar.
 
 ## Your progress
