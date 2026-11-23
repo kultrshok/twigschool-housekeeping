@@ -187,7 +187,7 @@
     });
   };
 
-  /* Self-resetting routine checklists (house course). Put ```widget routine-daily``` (or -weekly / -monthly)
+  /* Self-resetting routine checklists (house workshop). Put ```widget routine-daily``` (or -weekly / -monthly)
      directly above a "- [ ]" checklist; the widget unticks that list when the day, week (Monday) or month rolls over. */
   function pad(n) { return (n < 10 ? "0" : "") + n; }
   function periodKey(kind, d) {

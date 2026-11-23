@@ -11,9 +11,9 @@ kultrshok × Twig
 
 ## Welcome to the Workshop
 
-*"Gooood evening, and welcome to the only cleaning course hosted by a gnome who once let a sandwich fossilize inside a toolbox. A house is a machine, apprentice. It has moving parts, filters, seals and drains, and like any contraption it runs fine with a little upkeep and makes alarming noises without it. Nobody here is going to boss you around. I'm going to show you how the machine works, what each part needs, and why. What you do with that is your call. Great Scott, let's tinker with a house!"* — Twig
+*"Gooood evening, and welcome to the only cleaning workshop hosted by a gnome who once let a sandwich fossilize inside a toolbox. A house is a machine, apprentice. It has moving parts, filters, seals and drains, and like any contraption it runs fine with a little upkeep and makes alarming noises without it. Nobody here is going to boss you around. I'm going to show you how the machine works, what each part needs, and why. What you do with that is your call. Great Scott, let's tinker with a house!"* — Twig
 
-This course assumes **zero** experience. If nobody ever showed you how to mop, what a grout line is, or why the dryer has a little screen in it, you're in the right place. Nothing here is "obvious," and nothing here is a test of character.
+This workshop assumes **zero** experience. If nobody ever showed you how to mop, what a grout line is, or why the dryer has a little screen in it, you're in the right place. Nothing here is "obvious," and nothing here is a test of character.
 
 It's written for brains that are **ADHD**, **autistic**, or both (**AuDHD**, as a lot of us say), and/or wired for **pathological demand avoidance (PDA)**. That changes how it's built:
 
@@ -24,17 +24,17 @@ It's written for brains that are **ADHD**, **autistic**, or both (**AuDHD**, as 
 - **The weeks can go in any order.** Jump to whatever's bugging you. The progress board doesn't care about order, and neither does Twig.
 - **The checklists wipe themselves clean** every day, week or month. No streaks, no scores, no red marks. Unticked items just wait.
 
-**The house this course was written for:** any house, apartment or rental, with any mix of people and pets. The examples assume a busy household with animals (dogs, cats, reptiles, maybe backyard birds), and they flag the climate bits (hard water, dust, heat, humidity, storm season, scorpion country) so you can keep the ones that fit where you live and skip the rest.
+**The house this workshop was written for:** any house, apartment or rental, with any mix of people and pets. The examples assume a busy household with animals (dogs, cats, reptiles, maybe backyard birds), and they flag the climate bits (hard water, dust, heat, humidity, storm season, scorpion country) so you can keep the ones that fit where you live and skip the rest.
 
 ```tip
-**This course isn't about a "clean house."** It's about a *working* house: one where you can find a fork, the air filter isn't choking the AC, nobody gets Salmonella, and the dryer doesn't catch fire. Pretty is optional. Working is the goal.
+**This workshop isn't about a "clean house."** It's about a *working* house: one where you can find a fork, the air filter isn't choking the AC, nobody gets Salmonella, and the dryer doesn't catch fire. Pretty is optional. Working is the goal.
 ```
 
-### How to use this course
+### How to use this workshop
 
 | Part | What's in it |
 | --- | --- |
-| **Start here** | How the course talks to you, the cleaning kit, and the course map |
+| **Start here** | How the workshop talks to you, the cleaning kit, and the workshop map |
 | **Weeks 1–11** | One topic each. Read the Shop Manual, try the Bench Task menu if you feel like it, take the quiz if you want a self-check |
 | **Toolbox** | The daily, weekly and monthly checklists (self-resetting), the seasonal list, Rescue Mode for when it's all too much, quick-reference charts and free resources |
 
@@ -48,11 +48,11 @@ It's written for brains that are **ADHD**, **autistic**, or both (**AuDHD**, as 
 
 That's it. Eleven weeks is just how the material is split up. It can take eleven weeks, eleven days or eleven months.
 
-## How This Course Talks to You
+## How This Workshop Talks to You
 
 *"A word on how I'll talk, apprentice. I make offers, not orders. When I say 'the fridge coils need cleaning about twice a year,' that's the fridge talking, not me. The fridge is very bossy. I'm just translating. Heh."* — Twig
 
-### The rules the course follows
+### The rules the workshop follows
 
 1. **Reasons first.** Every task says why it exists in plain mechanical terms: what builds up, what breaks, what smells, what makes someone sick.
 2. **Natural consequences, not threats.** You'll see "If skipped:" lines. They describe what the house does if a task waits, like a manual describing what happens if you never change the oil. Some skips are harmless. Some are fire. You'll know which is which.
@@ -78,12 +78,12 @@ For PDA brains especially, the moment something feels like a demand, even a dema
 - **Make it a side quest.** "Find every cup in the house" is a scavenger hunt. "Hunt for glowing pet stains (or scorpions, where you have them) with a blacklight" is legitimately fun (Week 10).
 - **Shrink it below the threshold.** "I'll just get the gloves out." Often that's enough to start; sometimes it isn't, and that's fine too.
 - **Borrow a body.** *Body doubling*: someone else in the room (in person, on a call, or a "clean with me" video) makes starting much easier for many ADHD brains.
-- **Swap the order.** Every list in this course can be done in any order. Start with the part you mind least.
+- **Swap the order.** Every list in this workshop can be done in any order. Start with the part you mind least.
 - **Give it to the machine.** Timers, alarms and smart-home reminders are the house asking, not a person. Some brains push back less against a beep than a voice.
 - **Drop it.** Seriously. If today is not the day, the dishes will still be there tomorrow. Mess is not a moral failing. It's just stuff that hasn't been moved yet.
 
 ```tip
-**Stolen with credit:** therapist KC Davis's book *How to Keep House While Drowning* is built on the same idea this course uses: care tasks are *functional*, not moral. A messy house doesn't mean anything about you. It's in the Parts Bin at the end.
+**Stolen with credit:** therapist KC Davis's book *How to Keep House While Drowning* is built on the same idea this workshop uses: care tasks are *functional*, not moral. A messy house doesn't mean anything about you. It's in the Parts Bin at the end.
 ```
 
 ### Sensory toolkit
@@ -101,7 +101,7 @@ Cleaning is a sensory minefield: smells, textures, wet sleeves, noise, slime. Yo
 | **Visual overwhelm** | Work one zone (a single counter, one shelf). Literally cover the rest with a sheet if it helps |
 | **Boredom** | Podcast, audiobook, music, a game timer, or a "how fast can I do this" race |
 
-## Course Map
+## Workshop Map
 
 | Phase | Weeks | Module | What you'll get out of it |
 | --- | --- | --- | --- |
@@ -113,7 +113,7 @@ Cleaning is a sensory minefield: smells, textures, wet sleeves, noise, slime. Yo
 Then the **Toolbox**: the self-resetting daily, weekly and monthly checklists; the seasonal and yearly list; Rescue Mode; quick-reference charts; free resources; and a house log for tracking when things were last done.
 
 ```lvl
-**Done looks like (for the whole course):** a cleaning kit you can grab in one move, checklists you actually use (any amount counts), the dangerous stuff (fire, gas, germs) handled, and a house log that tells you when each machine last got serviced.
+**Done looks like (for the whole workshop):** a cleaning kit you can grab in one move, checklists you actually use (any amount counts), the dangerous stuff (fire, gas, germs) handled, and a house log that tells you when each machine last got serviced.
 ```
 
 ## Phase 1: Brain and Bench (Weeks 1–2)
@@ -170,7 +170,7 @@ Then the **Toolbox**: the self-resetting daily, weekly and monthly checklists; t
 **3. The basic bleach disinfecting mix** (for when you need it): about **20 mL regular, unscented household bleach per 1 L of cool water**, in a labeled bottle. Make it fresh each day you use it (it weakens fast once diluted). **Bleach strengths vary, and the label wins:** if your bottle gives its own disinfecting dilution, use that. Leave it wet on the surface for at least 1 minute (or the label's time), then rinse surfaces that animals or food will touch, and let it air dry.
 
 ```stop Stop: the never-mix list
-**4. ⚠ The never-mix list.** This is the one part of the course that's genuinely non-negotiable, because the house can't undo it. Mixing these makes toxic gas, sometimes in seconds, and bathrooms are small rooms.
+**4. ⚠ The never-mix list.** This is the one part of the workshop that's genuinely non-negotiable, because the house can't undo it. Mixing these makes toxic gas, sometimes in seconds, and bathrooms are small rooms.
 ```
 
 | Never mix | What it makes | Where people get caught |
@@ -494,7 +494,7 @@ Q: Storing a bathroom cleaner in the bathroom is an example of...
 #### Go learn it
 
 - **Your floor's manufacturer:** search the brand name plus "care and maintenance." Their instructions decide what's safe, especially for LVP and laminate
-- **This course's Quick Reference page** (Toolbox): what to use on each floor type, on one card
+- **This workshop's Quick Reference page** (Toolbox): what to use on each floor type, on one card
 
 ```quiz Week 3 practice
 Q: Which floor is permanently damaged by vinegar?
@@ -1984,7 +1984,7 @@ Q: In a hard-water area, which machines need extra attention?
 - **Lower the bar** for a while. Daily list down to: animals fed and watered, litter scooped, food trash out. That's enough to keep everyone safe.
 
 ```tip
-**The house will forgive you.** Almost everything in this course can wait a week or a month without real harm. The handful that can't (lint screen, never-mix, the animals' basics, rotting food) are all on the first two lines of Rescue Mode. Everything else is patient.
+**The house will forgive you.** Almost everything in this workshop can wait a week or a month without real harm. The handful that can't (lint screen, never-mix, the animals' basics, rotting food) are all on the first two lines of Rescue Mode. Everything else is patient.
 ```
 
 ## Sleep Help for AuDHD and PDA Brains
@@ -2060,7 +2060,7 @@ Talk to a doctor if:
 | [Sleep Foundation: ADHD and Sleep](https://www.sleepfoundation.org/mental-health/adhd-and-sleep) | Plain-language overview of ADHD sleep problems, delayed sleep phase and what helps |
 | [AASM: Sleep Education](https://sleepeducation.org/) | The American Academy of Sleep Medicine's patient site, with a sleep-center finder |
 | [ACP guideline news release](https://www.acponline.org/acp-newsroom/acp-recommends-cognitive-behavioral-therapy-as-initial-treatment-for-chronic-insomnia) | Why CBT-I comes first for chronic insomnia |
-| Week 8 of this course | The sensory sanctuary: light, sound, temperature, sheets and weighted blankets |
+| Week 8 of this workshop | The sensory sanctuary: light, sound, temperature, sheets and weighted blankets |
 
 ### Sleep log
 
