@@ -265,7 +265,7 @@
         var p = pages[cur]; state.done[p.id] = !state.done[p.id]; save(); updateProg();
         if (state.done[p.id]) {
           var pr = TS.progress();
-          toast(pr.done === pr.total ? "Great Scott, you finished the whole workshop! Diploma's in the mail. Heh." : p.title + " is in the books! Onward, apprentice.", "sign_lvl.webp");
+          toast(pr.done === pr.total ? "Great Scott, you finished the whole " + (C.kind || "course") + "! Diploma's in the mail. Heh." : p.title + " is in the books! Onward, apprentice.", "sign_lvl.webp");
           flash(pr.done === pr.total ? "GREAT SCOTT! ALL DONE!" : "LEVEL UP!");
         }
         show(cur);
@@ -318,7 +318,7 @@
       '<button id="ts-theme" title="Cycle theme: workshop / parchment / slate" aria-label="Theme">' + ICO("goggles") + '</button>' +
       '<button id="ts-exp" title="Save progress to a file" aria-label="Export progress">' + ICO("sky-ship") + '<span class="lbl">Export</span></button>' +
       '<button id="ts-imp" title="Load progress from a file" aria-label="Import progress">' + ICO("airship") + '<span class="lbl">Import</span></button>' +
-      (C.home ? '<a class="btn" href="' + C.home + '" title="All workshops" aria-label="All workshops">' + ICO("top-hat") + '</a>' : "") + "</header>" +
+      (C.home ? '<a class="btn" href="' + C.home + '" title="Back to Twig School" aria-label="Back to Twig School">' + ICO("top-hat") + '</a>' : "") + "</header>" +
       '<div class="ts-main"><nav class="ts-nav"></nav><main class="ts-page"></main></div>';
     applyTheme();
     nav = document.querySelector(".ts-nav"); page = document.querySelector(".ts-page");

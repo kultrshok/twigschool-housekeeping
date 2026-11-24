@@ -223,7 +223,7 @@
   W["routine-monthly"] = routine("monthly", "This month's card", "on the 1st of each month");
 })();
 
-/* ===== Animal care (Advanced Animal Care course) — added Nov 2026 ===== */
+/* ===== Animal care (Advanced Animal Care workshop) — added Nov 2026 ===== */
 (function () {
   "use strict";
   var TS = window.TwigSchool, W = TS.widgets;

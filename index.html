@@ -22,7 +22,7 @@
 <script>
 (function () {
   var cards = document.getElementById("cards"), cat = window.TWIG_CATALOG || [];
-  // course card icons (assets/icons/color); new courses get the gears
+  // card icons (assets/icons/color); new units get the gears
   var ICONS = {math: "clock", electronics: "steam-engine", python: "gear-crate", linux: "gears", arduino: "steam-power",
                raspberrypi: "time-factory", preservation: "satchel", foodforest: "sky-city", husbandry: "goggles", house: "top-hat"};
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
@@ -31,12 +31,12 @@
   function applyTheme() { document.body.classList.toggle("parchment", theme === 1); document.body.classList.toggle("slate", theme === 2); }
   applyTheme();
   document.getElementById("theme").onclick = function () { theme = (theme + 1) % 3; applyTheme(); try { localStorage.setItem("twigschool:theme", String(theme)); } catch (e) {} };
-  if (!cat.length) cards.innerHTML = "<p>No courses yet. Run tools/build_course.py.</p>";
+  if (!cat.length) cards.innerHTML = "<p>Nothing on the shelves yet. Run tools/build_course.py.</p>";
   cat.forEach(function (c) {
     var done = "";
     try { var s = JSON.parse(localStorage.getItem("twigschool:" + c.id) || "{}"); var n = Object.keys(s.done || {}).filter(function (k) { return s.done[k]; }).length; if (n) done = "<p style='color:var(--hat)'>" + n + " weeks/checkpoints done</p>"; } catch (e) {}
     var ico = ICONS[c.dir] || "gears";
-    cards.insertAdjacentHTML("beforeend", '<a href="courses/' + esc(c.dir) + '/index.html"><img class="cico" src="framework/assets/icons/color/' + ico + '.png" alt=""><div class="cbody"><h3>' + esc(c.title) + "</h3><div style='color:var(--muted)'>" + esc(c.subtitle) + "</div><p>" + esc(c.blurb) + "</p>" + done + "</div></a>");
+    cards.insertAdjacentHTML("beforeend", '<a href="courses/' + esc(c.dir) + '/index.html"><img class="cico" src="framework/assets/icons/color/' + ico + '.png" alt=""><div class="cbody"><h3>' + esc(c.title) + "</h3><div class='kind' style='font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brass-lt)'>" + esc(c.kind === "workshop" ? "Workshop" : "Course") + "</div><div style='color:var(--muted)'>" + esc(c.subtitle) + "</div><p>" + esc(c.blurb) + "</p>" + done + "</div></a>");
   });
 })();
 </script>

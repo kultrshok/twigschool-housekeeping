@@ -2,6 +2,7 @@
 window.TWIG_COURSE = {
  "id": "twig-house",
  "title": "Twig's Tinker School of House Keeping",
+ "kind": "workshop",
  "subtitle": "Running Your House Without Losing Your Marbles in 11 Weeks",
  "home": "../../index.html",
  "pages": [
